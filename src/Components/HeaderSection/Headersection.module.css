@@ -1,0 +1,19 @@
+.carousel-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carouselitem {
+    height: 550px;
+    background-color: #121212;
+    border-radius: 20px;
+}
+
+.captionCustom {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    bottom: 10%;
+}

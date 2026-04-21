@@ -1,0 +1,529 @@
+{
+    "fooditems": [
+        {
+            "id": 1,
+            "cate_title": "Briyani",
+            "display_cate_img": "/images/slide3.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken briyani",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Mutton briyani",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Chicken dum briyani",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg dum briyani",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cate_title": "FriedRice",
+            "display_cate_img": "/images/Friedricethumb.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "cate_title": "Meals",
+            "display_cate_img": "/images/Meals.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "cate_title": "Chaats",
+            "display_cate_img": "/images/chaatthumb.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "cate_title": "Pizza",
+            "display_cate_img": "/images/Pizzathumb.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "cate_title": "Drinks",
+            "display_cate_img": "/images/Drinksthumb.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "cate_title": "Pongal/Idli/vada",
+            "display_cate_img": "/images/PIVthumb.jpeg",
+            "briyanivarities": [
+                {
+                    "name": "Chicken FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Egg FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Paneer FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                },
+                {
+                    "name": "Gobi FriedRice",
+                    "image": "",
+                    "price": "",
+                    "desc": ""
+                }
+            ]
+        }
+    ],
+    "trenditems": [
+        {
+            "id": 1,
+            "image": "/images/vegmeals.jpeg",
+            "name": "Veg Meals",
+            "rating": "❤ ❤ ❤ ❤"
+        },
+        {
+            "id": 2,
+            "image": "/images/Spicyjalapenofriedrice.jpeg",
+            "name": "Spicy Jalapeno FriedRice",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 3,
+            "image": "/images/Ramennoodles.jpeg",
+            "name": "Ramen Noodles",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 4,
+            "image": "/images/Nonvehmeals.jpeg",
+            "name": "Non veg Meals",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 5,
+            "image": "/images/ShinRamyunnoodles.jpeg",
+            "name": "Shin Ramyun Noodles",
+            "rating": "❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 6,
+            "image": "/images/fishbriyani.jpeg",
+            "name": "Fish Briyani",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 7,
+            "image": "/images/Muttonchukkabriyani.jpeg",
+            "name": "Mutton Chukka Briyani",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 8,
+            "image": "/images/chikendumbriyani.jpeg",
+            "name": "Chicken Dum Briyani",
+            "rating": "❤ ❤ ❤ ❤ ❤ "
+        },
+        {
+            "id": 9,
+            "image": "/images/Schezwanvegrice.jpeg",
+            "name": "Schezwanveg Rice",
+            "rating": "❤ ❤ ❤ ❤ "
+        }
+    ],
+    "comboitems": [
+        {
+            "id": 1,
+            "image": "/images/pizzacombo.jpeg",
+            "text": "1 Large Pizza Any flavour + 1 Lunch Meal + 1 Coke",
+            "price": "Only ₹300"
+        },
+        {
+            "id": 2,
+            "image": "/images/dessertcombo.jpeg",
+            "text": "Any Chocolate deserts + 1 choco lava cake + 1 Coke",
+            "price": "Only ₹260"
+        },
+        {
+            "id": 3,
+            "image": "/images/chaatcombo.jpeg",
+            "text": "French Fries + 1 Cheeze Popcorn + 1 Pani Puri",
+            "price": "Only ₹180"
+        },
+        {
+            "id": 4,
+            "image": "/images/splcombo.jpeg",
+            "text": "Combo from Menu and from that Special offer will be given ",
+            "price": "Only ₹25"
+        }
+    ],
+    "menuitemlist": [
+        {
+            "id": 1,
+            "image": "/images/Kimchirice.jpeg",
+            "name": "Kimchi FriedRice",
+            "price": 280,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "image": "/images/pannerpizza.jpeg",
+            "name": "Paneer Pizza",
+            "price": 230,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "image": "/images/Nonvehmeals.jpeg",
+            "name": "Non veg Meals",
+            "price": 280,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "image": "/images/Muttonchukkabriyani.jpeg",
+            "name": "Mutton Chukka Briyani",
+            "price": 380,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 5,
+            "image": "/images/Spicyjalapenofriedrice.jpeg",
+            "name": "Spicy Jalapeno FriedRice",
+            "price": 300,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "image": "/images/gulab.jpeg",
+            "name": "GulabJamnun",
+            "price": 80,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 7,
+            "image": "/images/vegmeals.jpeg",
+            "name": "Veg Meals",
+            "price": 280,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 8,
+            "image": "/images/fishbriyani.jpeg",
+            "name": "Fish Briyani",
+            "price": 380,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 9,
+            "image": "/images/idli.jpeg",
+            "name": "Idli",
+            "price": 30,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 10,
+            "image": "/images/coke.jpeg",
+            "name": "Coke",
+            "price": 40,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 11,
+            "image": "/images/pongal.jpeg",
+            "name": "Pongal",
+            "price": 240,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 12,
+            "image": "/images/prawnbriyani.jpeg",
+            "name": "Prawn Briyani",
+            "price": 380,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 13,
+            "image": "/images/Ramennoodles.jpeg",
+            "name": "Ramen Noodles",
+            "price": 250,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 14,
+            "image": "/images/rasamalai.jpeg",
+            "name": "Rasamalai",
+            "price": 190,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 15,
+            "image": "/images/Vegrice.jpeg",
+            "name": "Veg Rice",
+            "price": 180,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 16,
+            "image": "/images/vada.jpeg",
+            "name": "Vada",
+            "price": 20,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 17,
+            "image": "/images/ShinRamyunnoodles.jpeg",
+            "name": "Shin Ramyun Noodles",
+            "price": 480,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 18,
+            "image": "/images/Seseamenoodles.jpeg",
+            "name": "Seseame Noodles",
+            "price": 440,
+            "rating": "💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 19,
+            "image": "/images/Schezwanvegrice.jpeg",
+            "name": "Schezwanveg Rice",
+            "price": 340,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 20,
+            "image": "/images/panipuri.jpeg",
+            "name": "Pani Puri",
+            "price": 80,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 21,
+            "image": "/images/paavbhagi.jpeg",
+            "name": "Paav Bhagi",
+            "price": 70,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 22,
+            "image": "/images/mushroompizza.jpeg",
+            "name": "MushroomPizza",
+            "price": 180,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 23,
+            "image": "/images/GarlicEggrice.jpeg",
+            "name": "Garlic Egg Rice",
+            "price": 200,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 24,
+            "image": "/images/chocolava.jpeg",
+            "name": "Chocolava",
+            "price": 100,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 25,
+            "image": "/images/chikendumbriyani.jpeg",
+            "name": "Chicken Dum Briyani",
+            "price": 250,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 26,
+            "image": "/images/Chickenrice.jpeg",
+            "name": "Chicken Rice",
+            "price": 110,
+            "rating": "💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 27,
+            "image": "/images/brownie.jpeg",
+            "name": "Brownie",
+            "price": 150,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        },
+        {
+            "id": 28,
+            "image": "/images/chickenbriyani.jpeg",
+            "name": "Chicken briyani",
+            "price": 275,
+            "rating": "💛💛💛💛💛",
+            "quantity": 1
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+.cartitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cartdetails {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.cartimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cartname h4 {
+  font-size: 22px;
+}
+
+.cartpricce {
+  font-size: 20px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.controls button {
+  font-size: 18px;
+  padding: 6px 14px;
+}
+
+.total {
+  font-size: 22px;
+  text-align: right;
+}
+
+.controls .quantity {
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+.removebtn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1099px) {
+  .cartdetails {
+    gap: 20px;
+  }
+
+  .cartimg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cartname h4 {
+    font-size: 20px;
+  }
+
+  .cartpricce {
+    font-size: 18px;
+  }
+
+  .actions {
+    gap: 20px;
+  }
+
+  .controls button {
+    font-size: 16px;
+    padding: 5px 12px;
+  }
+
+  .total {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .removebtn {
+    background-color: #ff4d4f;
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile (≤767px) */
+@media (max-width: 767px) {
+  .cartitem {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .cartdetails {
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .cartimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cartname h4 {
+    font-size: 18px;
+  }
+
+  .cartpricce {
+    font-size: 16px;
+  }
+
+  .actions {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .total {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .removebtn {
+    background-color: #ff4d4f;
+    padding: 7px 10px;
+    font-size: 15px;
+    margin-left: 0;
+  }
+}
