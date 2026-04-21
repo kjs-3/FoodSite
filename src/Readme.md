@@ -1,1 +1,2 @@
-This website is generally about the food restaurant built using react 
+#ThikssRestro
+Its a Food website built using React
