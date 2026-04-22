@@ -9,7 +9,7 @@ const Checkout = () => {
         setordered(true)
     }
     useEffect(()=>{
-        if(ordered){
+        if(ordered==false){
             const time=setTimeout(()=>{
                 nav('/');
             },4000);
