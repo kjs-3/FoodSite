@@ -24,7 +24,7 @@ export const cartreducer = (state, action) => {
         case 'increase':
             return { ...state, cart: state.cart.map((item) => item.id === action.payload.id ? { ...item, quantity: item.quantity + 1 } : item) }
             break;
-            case setcart:
+            case 'setcart':
                 return action.payload;
                 break;
         default:
@@ -40,9 +40,9 @@ const Providerr = ({ children }) => {
     //     return saved ? JSON.parse(saved) : initial
     // });
     useEffect(() => {
-        const saved = localstorage.getitem('cart')
+        const saved =localStorage.getItem('cart');
         if (saved) {
-            dispatch({ type: 'setcart', payload: JSON.parse(saved) })
+            dispatch({ type: 'setcart', payload: JSON.parse(saved) });
         }
     }, []);
     useEffect(() => {
