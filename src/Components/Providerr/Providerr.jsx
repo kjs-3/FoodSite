@@ -24,21 +24,34 @@ export const cartreducer = (state, action) => {
         case 'increase':
             return { ...state, cart: state.cart.map((item) => item.id === action.payload.id ? { ...item, quantity: item.quantity + 1 } : item) }
             break;
+            case setcart:
+                return action.payload;
+                break;
         default:
             return state;
     }
 }
 const Providerr = ({ children }) => {
-    const[search,setsearch]=useState('');
-    const [state, dispatch] = useReducer(cartreducer, initialstate, (initial) => {
-        const saved = localStorage.getItem('cart');
-        return saved ? JSON.parse(saved) : initial
-    });
-    useEffect(() => { localStorage.setItem('cart', JSON.stringify(state)), [state] })
+    const [search, setsearch] = useState('');
+    const [state, dispatch] = useReducer(cartreducer, initialstate);
+    // (initial) => {
+    //     const saved = localStorage.getItem('cart');
+    //     return saved ? JSON.parse(saved) : initial
+    // });
+    useEffect(() => {
+        const saved = localstorage.getitem('cart')
+        if (saved) {
+            dispatch({ type: 'setcart', payload: JSON.parse(saved) })
+        }
+    }, []);
+    useEffect(() => {
+        localStorage.setItem('cart', JSON.stringify(state));
+    },[state])
+
     const [count, setcount] = useState(0);
     return (
         <>
-            <Fooditems.Provider value={{ foodlisting, state, dispatch, count, setcount,search,setsearch }}>
+            <Fooditems.Provider value={{ foodlisting, state, dispatch, count, setcount, search, setsearch }}>
                 {children}
             </Fooditems.Provider>
         </>
