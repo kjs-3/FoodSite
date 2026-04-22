@@ -39,7 +39,7 @@ const Navbarr = () => {
                     <Link to="/cart"><li className={active === "about" ? "active" : "notactive"} onClick={() => { setactive("cart") }}>
                         <div className={styles.addtocart}>
                             <IoBagAddOutline />
-                            <div className={styles.round}>{count}</div>
+                            {/* <div className={styles.round}>{count}</div> */}
                         </div></li></Link>
                     <div className={styles.profile}>
                         <RiUserAddLine onClick={() => nav('/signin')} />
