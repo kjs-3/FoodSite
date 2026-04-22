@@ -34,6 +34,7 @@ export const cartreducer = (state, action) => {
 const Providerr = ({ children }) => {
     const [search, setsearch] = useState('');
     const [state, dispatch] = useReducer(cartreducer, initialstate);
+     const [count, setcount] = useState(0);
     // (initial) => {
     //     const saved = localStorage.getItem('cart');
     //     return saved ? JSON.parse(saved) : initial
@@ -48,7 +49,7 @@ const Providerr = ({ children }) => {
         localStorage.setItem('cart', JSON.stringify(state));
     },[state])
 
-    const [count, setcount] = useState(0);
+   
     return (
         <>
             <Fooditems.Provider value={{ foodlisting, state, dispatch, count, setcount, search, setsearch }}>
