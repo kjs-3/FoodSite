@@ -12,7 +12,7 @@ const Checkout = () => {
         if(ordered==false){
             const time=setTimeout(()=>{
                 nav('/');
-            },3000);
+            },4000);
         }
     },[ordered])
     return (
